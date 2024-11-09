@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li button{ @apply bg-purple-900 h-[40px] w-[120px] rounded-[30px] text-white mt-[0px]}
+h1{@apply text-[60px] font-bold}
+h1 span{ @apply text-orange-500}
+.main{@apply h-[50px] w-[400px] rounded-[30px] mt-[100px]}
+.main button{ @apply bg-purple-900 text-white h-[50px] w-[200px] rounded-[30px] }
+.img{ @apply mt-[40px] ml-[300px]}
+body{@apply bg-slate-50}
+
+.one, .two,.three{ @apply w-[310px] h-[300px]}
+.one{@apply bg-center bg-no-repeat bg-cover; background-image:url("../Group\ 335.png");}
+.tr{@apply text-center}
+.two{ @apply  bg-center bg-no-repeat bg-cover; background-image:url("../Group\ 336.png")}
+.three{ @apply  bg-center bg-no-repeat bg-cover ; background-image: url("../Group\ 335.png");}
+.det{ @apply h-[500px] w-[400px] mt-[10px] bg-[url('../OBJECTS%20(1).png')] bg-center bg-no-repeat bg-cover }
+
+.detmain{ @apply bg-slate-50 flex ml-[200px] mr-[200px] mt-[50px]}
+.stu{ @apply text-center text-[40px] mt-[80px]}
+.stup{@apply text-center}
+.simg{ @apply h-[300px] w-[1000px] ml-[250px]}
+  .simg{@apply  bg-[url('../Group%20348%20(1).png')] bg-center bg-no-repeat bg-cover}
+    
+        .footer{ @apply bg-purple-900 text-white flex justify-around w-[1200px] h-[300px] ml-[180px] mt-[80px]}
+        .footer h4{ @apply font-bold text-[20px] mb-[50px] mt-[20px]}
+        .footer p{ @apply mt-3}
+          
