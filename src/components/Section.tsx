@@ -5,7 +5,7 @@ function Section(){
 
         
         <>
-        <div className="flex">
+        <div className="flex" id="home">
 
 <div className=" w-1/2 absolute">
 
@@ -32,7 +32,7 @@ function Section(){
 
 
 {/* image ka div */}
-<div className="img">
+<div className="img" >
 <Image src={"/Ellipse 1.png"} alt="" width={300} height={300} className=" absolute right-96"/>
 
 <Image src={"/OBJECTS.png"} alt="" width={800} height={500} className="img  "/>

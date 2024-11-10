@@ -3,7 +3,7 @@
     return(
 <>
 
-<div className="detmain">
+<div className="detmain" id="about">
 
 <div className="det "></div>
 <div className="mt-32 ml-32"><h1>Premium <span>Learning</span> <br /> Experience</h1>

@@ -26,4 +26,6 @@ body{@apply bg-slate-50}
         .footer{ @apply bg-purple-900 text-white flex justify-around w-[1200px] h-[300px] ml-[180px] mt-[80px]}
         .footer h4{ @apply font-bold text-[20px] mb-[50px] mt-[20px]}
         .footer p{ @apply mt-3}
+       .unorder{ @apply  shadow-inner p-6 bg-purple-100}
+       .unorder li{ @apply text-[18px] font-bold}
           

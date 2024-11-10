@@ -3,12 +3,12 @@ function Footer(){
 
 
         <>
-        <div className="footer ">
+        <div className="footer " id="contact">
       
         <div><h4>Company</h4>
         <p>About</p>
         <p>Blog</p>
-        <p>Contact</p>
+        <p id="sign">Contact</p>
         <p>Careers</p>
       
         </div>
